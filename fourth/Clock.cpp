@@ -7,10 +7,6 @@ class Clock{
 public:
     void setTime(int hour,int minute,int second);
     void showTime();
-
-//public:
-//    void showTime();
-
 private:
     int hour,minute,second;
 };
@@ -26,7 +22,7 @@ inline void Clock::showTime() {
     cout << "Time- "<< this->hour <<":"<<this->minute<<":"<<this->second<<endl;
 }
 
-int main(){
+int main12(){
     Clock myClock;
     myClock.setTime(16,35,21);
     myClock.showTime();
