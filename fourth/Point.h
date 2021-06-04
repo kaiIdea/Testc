@@ -8,6 +8,8 @@
 
 class Point {
 
+public:
+    Point(int i);
 };
 
 
