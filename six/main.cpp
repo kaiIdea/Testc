@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main1(){
+int main15(){
     int i;
     int *ptr = &i;
     //i = 10;
