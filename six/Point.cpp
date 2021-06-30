@@ -1,6 +1,6 @@
 #include "Point.h"
 
-int main(){
+int main18(){
     cout << "Step one..." << endl;
 
     Point *p = new Point;
