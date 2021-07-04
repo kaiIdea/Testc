@@ -2,7 +2,7 @@
 
 #include "Derived.h"
 
-int main(){
+int main20(){
     //声明定义 Derived对象
     Derived d;
     //创建一个 Derived类型的指针，赋予对象地址
