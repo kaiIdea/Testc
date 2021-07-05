@@ -10,7 +10,7 @@ void fun(Base1 *ptr){
     ptr->display();
 }
 
-int main(){
+int main22(){
     Base1 base1;
     Base2 base2;
     Derived derived;
