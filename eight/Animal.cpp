@@ -9,6 +9,13 @@ void Animal::getAnimalInfo() {
     cout << "getAnimalInfo: this‘s base animal..." << endl;
 }
 
+void Animal::process(Animal *animal) {
+    animal->getAnimalInfo();
+
+    Dog *d = dynamic_cast<Dog *>(animal);
+    d->talk();
+}
+
 int main(){
     //虚函数，是多态的基础。
     //派生类，覆盖基类虚函数，
@@ -19,11 +26,9 @@ int main(){
     Animal *animal3 = new Dog;
 
 
-    animal1->getAnimalInfo();
-    animal2->getAnimalInfo();
-    animal3->getAnimalInfo();
+    animal1->process(animal1);
+    //animal2->process(animal2);
+    //animal3->process(animal3);
 
-
-    Dog *d = dynamic_cast<Dog*>(animal3);
     return 0;
 }

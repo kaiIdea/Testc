@@ -8,6 +8,8 @@ class Animal {
 public:
     virtual void getAnimalInfo();
 
+    void process(Animal *animal);
+
 private:
     int age;
     int color;

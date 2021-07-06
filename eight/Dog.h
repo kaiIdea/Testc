@@ -6,7 +6,10 @@
 #include "Animal.h"
 
 class Dog: public Animal{
+
+public:
     void getAnimalInfo();
+    void talk();
 };
 
 
