@@ -1,0 +1,1 @@
+多态，虚函数(virtual),指针类型转换(dynamic_cast),指针类型获取(tyid)
