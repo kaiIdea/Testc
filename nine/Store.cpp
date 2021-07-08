@@ -33,7 +33,7 @@ private:
     };
 
 
-int main(){
+int main27(){
     Store<int> store1;
     store1.putItem(10);
     cout << "item: " << store1.getItem() << endl;
