@@ -7,8 +7,6 @@
 
 template<class T>
 class Store {
-
-
 private:
     T item;
     //表示item中，是否被存入内容

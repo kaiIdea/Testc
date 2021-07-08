@@ -25,3 +25,10 @@ void Store<T>::putItem(const T &t) {
         item = t;
     }
 }
+
+
+int main(){
+    Store<int> store1;
+    store1.getItem();
+    return 0;
+}
