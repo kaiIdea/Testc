@@ -26,9 +26,21 @@ void Store<T>::putItem(const T &t) {
     }
 }
 
+struct Student{
+private:
+        int id;
+        float gpa;
+    };
+
 
 int main(){
     Store<int> store1;
-    store1.getItem();
+    store1.putItem(10);
+    cout << "item: " << store1.getItem() << endl;
+
+    double a = 3.33;
+    Store<double> d1;
+    d1.putItem(a);
+    cout << "item1: " << d1.getItem() << endl;
     return 0;
 }
