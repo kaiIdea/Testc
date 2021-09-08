@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int main30() {
     std::cout << "Hello, World!" << std::endl;
 
     //运算符，i++ 变量i 自增长1，并更新内存值，输出打印时，返回自增前的值。
