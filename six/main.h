@@ -6,7 +6,7 @@
 #define TESTC_MAIN_H
 
 
-class main {
+class main28() {
 
 };
 

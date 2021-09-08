@@ -21,7 +21,7 @@ void BinSearch<T>::binSearch(const T *array, int size, const T &key) {
     }
 }
 
-int main(){
+int main29(){
     int array[] = {2,5,14,56,78,98,102,111,148,256};
     int size = 10;
     BinSearch<int> search;
