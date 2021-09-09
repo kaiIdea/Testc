@@ -3,7 +3,7 @@ using namespace std;
 
 #include "main.h"
 
-int main(){
+int main31(){
 
     cout << "1111" <<endl;
 
