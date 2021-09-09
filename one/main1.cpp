@@ -36,7 +36,7 @@ int main(){
     int * const a4 = &y;
     cout << "a4:"<<a4<<endl;
     cout << "*a4:"<<*a4<<endl;
-
+    //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
 
     *a4 = 10;
     cout << "a4:"<<a4<<endl;
