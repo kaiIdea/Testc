@@ -15,15 +15,17 @@ int main(){
     *p = 20;
     cout << "p:" << p <<endl;
     cout << "*p:" << *p <<endl;
-    //指针
-    //不带指针符号，打印内存地址
-    //带指针符号，打印地址对应的变量值
+
 
     const int twoInt = 15;
 
     const int &ref = twoInt;
     cout << "ref:" << ref <<endl;
     cout << "&ref:" << &ref <<endl;
+
+    //指针
+    //不带指针符号，打印内存地址
+    //带指针符号，打印地址对应的变量值
 
     //引用
     //不带引用符号，打印地址对应的值
