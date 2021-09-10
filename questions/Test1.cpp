@@ -80,7 +80,7 @@ void test5_1(){
     }
     delete[] array;
 }
-int main(){
+int main36(){
     test5_1();
 };
 
