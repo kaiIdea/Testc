@@ -19,7 +19,7 @@ public:
 };
 
 
-int main(){
+int main33(){
 //    int a,b;
 //    cin>>a>>b;
 //    cout << "a= " << a <<endl;
