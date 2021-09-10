@@ -3,7 +3,7 @@ using namespace std;
 
 #include "main1.h"
 
-int main(){
+int main32(){
     int y = 88;
     int a1 = 3;
     //常量的值不能改变
