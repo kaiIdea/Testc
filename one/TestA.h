@@ -12,6 +12,8 @@ public:
     TestA(){ }
     TestA(int a);
     int get(int a);
+
+    //ostream& operator << (ostream&,TestA&);
 };
 
 

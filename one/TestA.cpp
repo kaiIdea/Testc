@@ -12,3 +12,8 @@ TestA::TestA(int a) {
 }
 
 
+int main(){
+    char c = 'a';
+    cout.put(c+25);
+}
+
