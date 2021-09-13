@@ -11,11 +11,11 @@ public:
     Complex2(int value = 0):value(value){};
 
     Complex2 &operator++();
-    Complex2 &operator++(int i);
-
+    Complex2 operator++(int i);
+    operator int();
 
     Complex2 &operator--();
-    Complex2 &operator--(int i);
+    Complex2 operator--(int i);
 
 
 public:

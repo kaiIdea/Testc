@@ -22,7 +22,7 @@ public:
 
 };
 
-int main(){
+int main42(){
     Test3 a;
     a.fl(1.2,5.3);
     a.getValue();
