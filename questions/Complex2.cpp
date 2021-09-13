@@ -27,7 +27,7 @@ Complex2 & Complex2::operator--(int i) {
     return result;
 }
 
-int main(){
+int main41(){
     Complex2 c2(0);
     cout << "初始值:"<<c2.getValue()<<endl;
     cout << "前置+= " <<(++c2).getValue()<<endl;
