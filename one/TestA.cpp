@@ -12,7 +12,7 @@ TestA::TestA(int a) {
 }
 
 
-int main(){
+int main39(){
     char c = 'a';
     cout.put(c+25);
 }

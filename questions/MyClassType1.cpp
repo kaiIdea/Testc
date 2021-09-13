@@ -16,7 +16,7 @@ int MyClassType1::gety() {
     return y;
 }
 
-int main(){
+int main38(){
     MyClassType1 obj1,*p,objArr[10];
     obj1.setx(111);
     obj1.displayx();

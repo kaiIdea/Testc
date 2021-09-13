@@ -8,8 +8,8 @@
 
 class Complex {
 public:
-    Complex(double real = 0.0,double imag = 0.0) : real(real),imag(imag){}
-    void display();
+    //Complex(double real = 0.0,double imag = 0.0) : real(real),imag(imag){}
+    //void display();
 
 private:
     double real;
