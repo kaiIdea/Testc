@@ -30,7 +30,7 @@ Complex2 Complex2::operator--(int i) {
 Complex2::operator int() {
     return value;
 }
-int main(){
+int main43(){
 //    Complex2 c2(0);
 //    cout << "初始值:"<<c2<<endl;
 //    cout << "后置+= " <<(c2++)<<endl;
@@ -64,4 +64,5 @@ int main(){
 
     cout<<"test5:"<<++count<<endl;
     cout<<"输出值:"<<count<<endl;
+    return 0;
 }
