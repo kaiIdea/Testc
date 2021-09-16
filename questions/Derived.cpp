@@ -5,7 +5,7 @@
 #include "Derived.h"
 
 
-int main(){
+int main45(){
     Base b(3);
     Derived d(6,7);
     b.showbase();
