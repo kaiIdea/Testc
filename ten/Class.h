@@ -7,11 +7,21 @@
 
 
 class Class {
-private:
-    int * var;
+//private:
+//    int * var;
+//public:
+//    Class(int num);
+//    ~Class();
+
+private:int x,y;
 public:
-    Class(int num);
-    ~Class();
+    int *num;
+public:
+    void class1(int a,int b){
+        x = a;
+        y = b;
+    }
+    int max();
 };
 
 
